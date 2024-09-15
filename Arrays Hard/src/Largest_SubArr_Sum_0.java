@@ -34,9 +34,9 @@ public class Largest_SubArr_Sum_0 {
         for (int i=0; i<n; i++){
 
             sum += arr[i];
-//            if (sum == 0){
-//                maxlen = i + 1;
-//            }
+            if (sum == 0){
+                maxlen = i + 1;
+            }
 
             if (!mpp.containsKey(sum)){
                 mpp.put(sum, i);
@@ -50,7 +50,7 @@ public class Largest_SubArr_Sum_0 {
             }
 
         }
-        System.out.println(maxlen);
+        System.out.println(maxlen); // Answer
         System.out.println(mpp);
     }
 }
