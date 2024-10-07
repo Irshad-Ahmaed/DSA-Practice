@@ -6,7 +6,6 @@ public class highest_product {
         Scanner sc = new Scanner(System.in);
         int k = sc.nextInt();
         int maxProduct = 1;
-
         if (k<=3){
             System.out.println("K is: " + k);
         }
