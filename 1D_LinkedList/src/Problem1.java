@@ -23,7 +23,7 @@ public class Problem1 {
         int k = 5;
         while (temp!=null){
             System.out.print(temp.data + " ");
-//            Search Element in LinkedList
+//            Search Element in LinkedList:
 //            if (k == temp.data) {
 //                System.out.println("Yes K is present in the LinkedList");
 //                break;
