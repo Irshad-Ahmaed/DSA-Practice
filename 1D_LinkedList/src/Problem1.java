@@ -20,8 +20,14 @@ public class Problem1 {
         Node temp = head;
 //        Number of element in LinkedList
         int count = 0;
+        int k = 5;
         while (temp!=null){
             System.out.print(temp.data + " ");
+//            Search Element in LinkedList
+//            if (k == temp.data) {
+//                System.out.println("Yes K is present in the LinkedList");
+//                break;
+//            }
             temp = temp.next;
             count++;
         }
