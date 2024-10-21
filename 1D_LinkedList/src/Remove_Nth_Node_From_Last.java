@@ -51,7 +51,7 @@ public class Remove_Nth_Node_From_Last {
 
         Node slow = head;
         Node fast = head;
-        // int count = 0;
+
         for(int i=1; i<=n; i++){
             fast = fast.next;
         }
