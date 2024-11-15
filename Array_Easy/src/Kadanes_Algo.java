@@ -30,7 +30,6 @@ public class Kadanes_Algo {
 
             if (sum<0){
                 sum=0;
-//                temp.clear();
             }
         }
 
